@@ -8,7 +8,7 @@ describe('Compare Numbers', function() {
   });
 });
 
-describe('Intersection numbers', function(){
+describe('Intersecting numbers', function(){
 	it('returns an array of items that is in both input arrays', function(){
 		expect(intersection([1,2,3],[1,3,5])).to.deep.equal([1,3]);
 	});
